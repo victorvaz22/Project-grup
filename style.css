@@ -8,7 +8,7 @@ body{
 }
 h1{
   font-style: italic;
-  color:black;
+  color:rgb(34, 33, 33);
   font-size: xx-large;
   margin-right: 0;
   margin-left: 0px;
@@ -32,7 +32,7 @@ li{
 }
 .hr1{
     margin-top: auto;
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(92, 53, 53);
     height: 4px;
 }
 #butday{
@@ -43,12 +43,12 @@ li{
 .but,h1:hover{
     cursor: pointer;
     opacity: 0.7;
-    background-color: rgb(249, 233, 178);
+    background-color: rgb(253, 234, 168);
 }
 .but{
     border: 0;
     color:black;
-    background-color: rgb(249, 233, 178);
+    background-color: rgb(253, 234, 168);
     font-style: italic;
 }
 #log-center{
@@ -66,7 +66,7 @@ li{
     
 }
 #but1{
-    border-color: rgb(34, 33, 33);
+    border-color: rgb(92, 53, 53);
     background-color:rgb(249, 233, 178);
     color: black;
     margin-left: 180px;
@@ -80,11 +80,11 @@ li{
 #but1:hover{
     cursor: pointer;
     opacity: 0.7;
-    background-color:rgb(252, 244, 233);
+    background-color:rgb(253, 234, 168);
     
 }
 #but2{
-    border-color:rgb(34, 33, 33);
+    border-color:rgb(92, 53, 53);
     background-color:rgb(249, 233, 178);
     color: black;
     margin-left: 180px;
@@ -98,11 +98,11 @@ li{
 #but2:hover{
     cursor: pointer;
     opacity: 0.7;
-    background-color:rgb(252, 244, 233);
+    background-color:rgb(253, 234, 168);
     
 }
 #but3{
-    border-color: rgb(34, 33, 33);
+    border-color: rgb(92, 53, 53);
     background-color:rgb(249, 233, 178);
     color: black;
     margin-left: 180px;
@@ -116,11 +116,11 @@ li{
 #but3:hover{
     cursor: pointer;
     opacity: 0.7;
-    background-color:rgb(252, 244, 233);
+    background-color:rgb(253, 234, 168);
     
 }
 #but4{
-    border-color: rgb(34, 33, 33);
+    border-color: rgb(92, 53, 53);
     background-color:rgb(249, 233, 178);
     color: black;
     margin-left: 180px;
@@ -134,7 +134,7 @@ li{
 #but4:hover{
     cursor: pointer;
     opacity: 0.7;
-    background-color:rgb(252, 244, 233);
+    background-color:rgb(253, 234, 168);
     
 }
 
@@ -142,7 +142,7 @@ li{
     text-align: center;
     padding: 0 20px;
     margin: 0%;
-    margin-top: 40px;
+    margin-top: 100px;
     
 }.sbnos{
     margin-top: 60px;
@@ -177,19 +177,10 @@ p{
 }
 .hr2{
     height: 4px;
-    background-color: rgb(34, 33, 33);
-    margin-bottom:auto;
-    margin-top: 60px;
-}
-footer{
-    background-color: rgb(253, 234, 168);
-    margin: 0;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    align-items: center;
-    margin-bottom: 0px;    
+    background-color: rgb(92, 53, 53);
+    margin-bottom: auto;
+    margin-top: 200px;
+    
 }
 #Fale{
     text-align: center;
@@ -241,33 +232,55 @@ footer{
     width: 210px;
     margin-top: 100px;
 }
-#c1{
-    margin-left: 200px;
-    border-color: rgb(34, 33, 33);
+#buy{
+    margin-left: 15px;
+    border-color: rgb(92, 53, 53);
     border-radius: 4px;
     background-color: rgb(253, 234, 168);
     height: 30px;
     width: 100px;
+
     font-style: italic;
 }
-#c1:hover{
+#buy:hover{
     cursor: pointer;
+    opacity: 0.7;
+    background-color: rgb(253, 234, 168);
 }
-.bolochocolate{
-    display: flex;
+.deliciasdaday{
+    display:flex;
     flex-direction: row;
     width: 70%;
     height: 400px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-left: 200px;
-
 }
 .botaocompra{
     text-align: center;
+    
 }
 .botaocompra2{
     text-align: center;
+
 }
 .botaocompra3{
     text-align: center;
+    
+}
+.listaitens{
+    align-items: center;
+}
+footer{
+    background-color: rgb(253, 234, 168);
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    
+}
+.listacopo1{
+    justify-items: center;
+    display: grid;
 }
